@@ -7,6 +7,7 @@ mongoose.connection.on('open', () => {
 });
 
 mongoose.connection.on('error', (err) => {
+	console.error('uh oh')
 	console.error(err);
 });
 
